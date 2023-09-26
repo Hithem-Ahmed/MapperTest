@@ -3,8 +3,9 @@ package com.mapping.dto;
 import lombok.Data;
 
 @Data
-public class Source {
+public class Target {
 
-    private int qax;
     private Long baz;
+    private int qax;
+
 }
