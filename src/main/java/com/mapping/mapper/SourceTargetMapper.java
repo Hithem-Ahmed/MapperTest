@@ -1,5 +1,7 @@
-package com.mapping.dto;
+package com.mapping.mapper;
 
+import com.mapping.dto.Source;
+import com.mapping.dto.Target;
 import org.mapstruct.InheritInverseConfiguration;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;

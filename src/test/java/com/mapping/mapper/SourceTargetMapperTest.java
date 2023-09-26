@@ -1,5 +1,7 @@
+package com.mapping.mapper;
+
 import com.mapping.dto.Source;
-import com.mapping.dto.SourceTargetMapper;
+import com.mapping.mapper.SourceTargetMapper;
 import com.mapping.dto.Target;
 import org.junit.Test;
 
