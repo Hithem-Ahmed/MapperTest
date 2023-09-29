@@ -6,7 +6,7 @@ import java.io.File;
 
 import static uk.org.webcompere.modelassert.json.JsonAssertions.*;
 
-public class SourceXmlToTargetConverterTest {
+public class SourceXmlToTargetJsonConverterTest {
     SourceXmlToTargetJsonConverter sourceXmlToTargetJsonConverter = new SourceXmlToTargetJsonConverter();
 
     @Test
