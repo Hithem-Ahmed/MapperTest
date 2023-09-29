@@ -15,14 +15,10 @@ import java.nio.charset.StandardCharsets;
 public class TargetJsonToSourceXmlConverter {
 
     public String convertJsonFileToXml(File file, SourceTargetMapper mapper)  throws IOException {
-        String json = readSFile(file);
+        String json = FileUtils.readFileToString(file, StandardCharsets.UTF_8);
         Target target = targetJsonToObject(json);
         Source source = mapper.targetToSource(target);
         return targetToXml(source);
-    }
-
-    private String readSFile(File file) throws IOException {
-        return FileUtils.readFileToString(file, StandardCharsets.UTF_8);
     }
 
     private Target targetJsonToObject(String xml) throws JsonProcessingException {
